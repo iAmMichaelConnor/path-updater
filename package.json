@@ -1,0 +1,17 @@
+{
+  "name": "path-updater",
+  "version": "1.0.0",
+  "description": "Storing minimal tree data for a leaf owner",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --runInBand"
+  },
+  "author": "iAmMichaelConnor",
+  "license": "",
+  "dependencies": {
+    "level": "^7.0.1"
+  },
+  "devDependencies": {
+    "jest": "^27.4.3"
+  }
+}
