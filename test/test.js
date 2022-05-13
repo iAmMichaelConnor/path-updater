@@ -15,7 +15,7 @@ const NUMBER_OF_BATCHES = 200;
 const AVG_BATCH_SIZE = 2048;
 const FUZZY_BATCH_SIZES = false;
 const LOG_EVERY_N_BATCHES = 10;
-const SPEED_TEST = false; // WARNING: this skips correctness checks. Set to `false` when changing the code, to catch errors!
+const SPEED_TEST = true; // WARNING: this skips correctness checks. Set to `false` when changing the code, to catch errors!
 
 let ownedLeafIndices = AUTOMATE_INPUTS ? Array(NUMBER_OF_OWNED_LEAVES).fill(0) : [3];
 let ownedLeafValues = [];  // dummies will be generated during the tests
